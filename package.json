@@ -1,0 +1,17 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d build"
+  },
+  "author": "joga",
+  "license": "MIT",
+  "home": "https://username.github.io/boilerplate",
+  "dependencies": {
+    "browser-sync": "^2.26.12",
+    "gh-pages": "^3.1.0"
+  }
+}
