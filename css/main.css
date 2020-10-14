@@ -27,6 +27,8 @@ header a.logo {
   padding: 1rem;
 }
 header > .wrap-header {
+  max-width: 96rem;
+  margin: 0 auto;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
 }
 header > .wrap-header input {

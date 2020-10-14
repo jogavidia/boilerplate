@@ -14,7 +14,9 @@ header{
     background-color: $white;
     z-index: 99;
     > .wrap-header{
-      box-shadow: 1px 1px 4px rgba($black, $alpha: 0.1);
+    max-width: 96rem;
+    margin: 0 auto;
+    box-shadow: 1px 1px 4px rgba($black, $alpha: 0.1);
       input{
         display: none;
         &:checked ~ .menu{
